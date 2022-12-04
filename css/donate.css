@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container h3{
+    text-transform: uppercase;
+}
+.header{
+    color: white;
+    padding: 10px 15px;
+    background: rgb(154, 36, 6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: white solid 4px;
+}
+.header h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header span{
+    color: #FFFDE3;
+}
+.phone{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.phone-img{
+    margin-right: 5px;
+}
+.section{
+    
+   background-image: linear-gradient(0deg,
+   rgba(243, 250, 250, 0.21) 40%,
+   rgba(7, 7, 7, 0.91)),url(/images/chevrolet-impala.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 450px;
+}
+.section-info{
+    padding: 55px 20px;
+    font-family: inherit;
+    color:rgb(154, 36, 6);
+}
+.section-card{
+    min-height: 300px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-info h1{
+    color: rgb(242, 236, 236);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.section-info span{
+    color:#CFE8A9;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-info p{
+    color: rgb(243, 247, 249);
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.2;
+    font-size: 1.2em;
+}
+.dcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    background: #FFFDE3;
+    border: 2px solid white;
+}
+.dcard h2{
+    color:#C21010;
+
+}
+.form-sect{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.donate-btn{
+    width: 100%;
+    border: rgb(34, 2, 138) solid 2px;
+    height: auto;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFFDE3;
+    padding: 3px 0px;
+    background:rgb(154, 36, 6);
+}
+.foot-cards{
+    color: rgb(154, 36, 6);
+    background: white;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-icon{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    background: #CFE8A9;
+    border-radius: 50%;
+    color:rgba(121, 238, 5, 0.01);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
